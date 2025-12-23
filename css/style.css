@@ -968,7 +968,7 @@ footer h1{
         animation: none;
     }
     .hero-info{
-        bottom: 5%;
+        bottom: 0%;
     }
     .scroll-down{
         bottom: 5%;
@@ -980,8 +980,12 @@ footer h1{
     .hero-vid-box{
         height: 200px;
         top: 18%;
-        left: 50%;
+        left: 27%;
         /* right: 5%; */
+    }
+
+    .scroll-down{
+        bottom: -5%;
     }
 
     .hero-vid-box img{
@@ -996,6 +1000,7 @@ footer h1{
         margin-bottom: 600px;
     }
     .project-card{
+        margin-top: 100px;
         flex-direction: column;
         margin-left: 25%;
         gap:30px
@@ -1008,6 +1013,9 @@ footer h1{
     }
     .project-info p{
         max-width: 300px;
+    }
+    .skills-section{
+        margin-bottom: -100px;
     }
     .designer{
         top: 15%;
@@ -1032,7 +1040,7 @@ footer h1{
 
     .contact-section{
         flex-direction: column;
-        margin-top: 100px;
+        /* margin-top: 100px; */
         margin-bottom: 50px;
     }
     .contact-section .section-title{
@@ -1049,6 +1057,7 @@ footer h1{
         display: inline;
     }
 }
+
 
 
 
